@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", event => {
 const SplashT = [
   "Made by NOVAfox & VØIDx",
   "Thanks for using the site",
-  "Follow us on Tiktok (@tobythefox0026)",
+  "Follow me on Tiktok (@tobythefox0026)",
   "Subscribe to my Youtube (@NOVAfox26)",
   "Check out the settings page",
 ];
