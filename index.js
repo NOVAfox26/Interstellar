@@ -118,6 +118,10 @@ app.use(express.static(path.join(__dirname, "static")));
 app.use("/ca", cors({ origin: true }));
 app.use("/bm", express.static(baremuxPath, transportStaticOptions));
 app.use("/ep", express.static(epoxyDistPath, transportStaticOptions));
+app.use(
+  "/vercel-analytics",
+  express.static(path.join(__dirname, "node_modules", "@vercel", "analytics", "dist"), transportStaticOptions),
+);
 
 const routes = [
   { path: "/b", file: "apps.html" },
