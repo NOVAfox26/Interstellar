@@ -168,7 +168,6 @@ document.addEventListener("DOMContentLoaded", event => {
 // Splash texts
 const SplashT = [
   "Made by NOVAfox & VØIDx",
-  "Check out discord.gg/interstellar :)",
   "Thanks for using the site",
   "Follow us on Tiktok (@tobythefox0026)",
   "Subscribe to my Youtube (@NOVAfox26)",
