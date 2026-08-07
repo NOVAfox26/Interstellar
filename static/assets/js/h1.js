@@ -171,7 +171,7 @@ const SplashT = [
   "Thanks for using the site",
   "Follow me on Tiktok (@tobythefox0026)",
   "Subscribe to my Youtube (@NOVAfox26)",
-  "Check out the settings page",
+  "Check out the settings page :)",
 ];
 
 let SplashI = Math.floor(Math.random() * SplashT.length);
